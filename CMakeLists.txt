@@ -11,6 +11,9 @@ add_subdirectory(corrade EXCLUDE_FROM_ALL)
 # Add Magnum as a subproject, enable Sdl2Application
 set(WITH_TGAIMPORTER ON CACHE BOOL "" FORCE)
 set(WITH_SDL2APPLICATION ON CACHE BOOL "" FORCE)
+set(WITH_ANYIMAGEIMPORTER ON CACHE BOOL "" FORCE)
+set(WITH_ANYSCENEIMPORTER ON CACHE BOOL "" FORCE)
+set(WITH_OBJIMPORTER ON CACHE BOOL "" FORCE)
 add_subdirectory(magnum EXCLUDE_FROM_ALL)
 
 add_subdirectory(src)
